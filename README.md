@@ -111,6 +111,8 @@ There's 3 ways of using this script:
 - `notes`
   - Opens the dated file in your configured `EDITOR`
 
+- `notes -d` is the same as notes , but first appends a current date stamp to the file 
+
 That's really all there is to it. With the above 3 ways of adding notes you'll
 find yourself adding all sorts of different types of notes with very little
 friction. I encourage you to check out [just how short the source

@@ -20,7 +20,7 @@ readonly NOTES_PATH="${NOTES_DIRECTORY}/${NOTES_FILE}"
 
 if [ "${1}" == "-d" ]; then
     echo `date` >> "${NOTES_PATH}"
-    echo "--------------------------" >> "${NOTES_PATH}"
+    echo "---------------------------" >> "${NOTES_PATH}"
     shift
 fi
 
